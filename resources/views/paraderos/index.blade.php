@@ -91,13 +91,11 @@
          serverSide:true,
          ajax:{
              url: "{{route('paraderos.index')}}",
-             type:'get',
          },
-         data:{"id":$("#id").val(), "direccion": $("#direccion").val(), "accion":$("#accion").val()},
-         "columns":[
-            {data: "id"},
-            {data: "direccion"},
-            {data: "accion", orderable: false},
+         columns:[
+            {data: 'id'},
+            {data: 'direccion'},
+            {data: 'accion', orderable: false},
          ]
     });
  });

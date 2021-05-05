@@ -13,7 +13,7 @@ class Paradero extends Model
 {
   protected $table="paraderos";
   protected $fillable=[
-    'id','direccion '
+    'direccion '
   ];
   public $timestamps =false;
 }

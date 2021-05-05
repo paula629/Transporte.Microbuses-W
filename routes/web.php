@@ -14,9 +14,6 @@ use App\Http\Controllers\paraderosController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 // rutas para el controlador paraderos
 
