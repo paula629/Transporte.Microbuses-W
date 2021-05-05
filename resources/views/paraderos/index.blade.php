@@ -93,10 +93,11 @@
              url: "{{route('paraderos.index')}}",
              type:'get',
          },
-         columns:[
-            {data: 'id'},
-            {data: 'direccion'},
-            {data: 'accion', orderable: false},
+         data:{"id":$("#id").val(), "direccion": $("#direccion").val(), "accion":$("#accion").val()},
+         "columns":[
+            {data: "id"},
+            {data: "direccion"},
+            {data: "accion", orderable: false},
          ]
     });
  });
